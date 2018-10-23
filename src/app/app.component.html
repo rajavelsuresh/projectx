@@ -1,5 +1,5 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <router-outlet></router-outlet>
+    <app-header *ngIf="showHeader"></app-header>
+    <router-outlet (activate)="modifyHeader()"></router-outlet>
 </div>
-

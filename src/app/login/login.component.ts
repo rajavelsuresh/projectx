@@ -13,6 +13,7 @@ export class LoginComponent implements OnInit {
 
   loginForm: FormGroup;
   alert: string;
+  loginPage: boolean;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -22,9 +23,9 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
     this.loginForm = this.formBuilder.group({
       username: ['', Validators.required],
-      password: ['', Validators.required]
+      password: ['', Validators.required],
     });
-
+    this.loginPage = false;
     // reset login status
     this.authenticationService.logout();
   }

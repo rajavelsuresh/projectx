@@ -1,5 +1,9 @@
 /* BASIC */
 
+div#headewr_group {
+    display: none;
+}
+
 html {
     background-color: #56baed;
 }
