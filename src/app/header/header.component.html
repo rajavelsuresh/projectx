@@ -17,9 +17,11 @@
             </div>
 
             <div class="right-div">
+
                 <a href="#" class="px-2"><i class="fa fa-user isize" aria-hidden="true"></i></a>
                 <a href="#" class="px-2"><i class="fa fa-bell isize" aria-hidden="true"></i></a>
                 <a href="#" class="px-2"><i class="fa fa-power-off isize" aria-hidden="true"></i></a>
+                <a href="#" class="px-2 mob_hidd"><i class="fa fa-bars isize" aria-hidden="true" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" data-toggle="collapse"></i></a>
 
 
             </div>
@@ -28,7 +30,7 @@
     <!-- LOGO HEADER END-->
 
     <!-- MENU SECTION start-->
-    <div class="container-fluid" style=" border-bottom: 1px solid #233b52c7;background:#233b52c7;">
+    <!-- <div class="container-fluid menu_back_g">
         <ul class="nav">
             <li ngbDropdown class="d-inline-block">
                 <a class="btn" id="dropdownBasic1">Dashboard</a>
@@ -62,4 +64,55 @@
             </li>
         </ul>
     </div>
-</div>
+</div>-->
+
+    <!--test header-->
+    <div class="">
+        <nav class="navbar navbar-expand-lg container-fluid menu_back_g " style="padding:0px">
+
+
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav container-fluid">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sites
+              </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Add Sites</a>
+                            <a class="dropdown-item" href="#">Site Details</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Data Analysis
+                  </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Power Generation</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Meter Management
+                      </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Add Meter</a>
+                            <a class="dropdown-item" href="#">Meter Details</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Inverter Management
+                          </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Add Inverter</a>
+                            <a class="dropdown-item" href="#">Inverter Details</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>

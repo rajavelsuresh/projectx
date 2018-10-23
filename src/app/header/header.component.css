@@ -6,7 +6,32 @@
 }
 
 .bg_hed {
-    background-color: #233b52;
+    background-color: #05467e;
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu_back_g {
+    border-bottom: 1px solid #05467e4d;
+    background: #05467e33;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #5d88af;
+}
+
+.mob_hidd {
+    display: none;
+}
+
+@media screen and (max-width: 990px) {
+    .mob_hidd {
+        display: block;
+        width: 42px;
+        float: left;
+    }
 }
 
 

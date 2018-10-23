@@ -12,9 +12,11 @@
 /* power section css*/
 
 .alert-info_edit {
-    color: #0c5460;
-    background-color: rgba(231, 239, 233, 0.68);
-    border-color: #bee5eb;
+    color: #ffffff;
+    background-color: rgb(25, 79, 125);
+    border-color: #10a6bd;
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 46px 7px;
 }
 
 
@@ -95,13 +97,17 @@ ul.timeline>li {
     text-align: justify;
 }
 
+ul.timeline>li a {
+    color: #194f7d;
+}
+
 ul.timeline>li:before {
     content: ' ';
     background: white;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #22c0e8;
+    border: 3px solid #05467e;
     left: 23px;
     width: 15px;
     height: 15px;

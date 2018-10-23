@@ -11,6 +11,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 
 
+
 //Router
 import { routing } from './app.routing';
 //Guards
