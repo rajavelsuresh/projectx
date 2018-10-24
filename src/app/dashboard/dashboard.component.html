@@ -88,7 +88,7 @@
         </div>
         <div class="col-md-6 col-lg-2 col-sm-6 col-xs-6">
             <div class=" alert-info_edit back-widget-set text-center">
-                <p style="font-size: 20px; margin-bottom :2px;">{{today | date:'h:mm a '}} </p>
+                <p style="font-size: 20px; margin-bottom :2px;">{{today | date:'h:mm:ss a '}} </p>
                 <p style="font-size: 20px; margin-bottom :2px;">{{today | date:'EEEE'}}</p>
                 <p style="font-size: 14px; margin-bottom :2px;">{{today | date:'MMMM d, y'}}</p>
 
@@ -231,7 +231,10 @@
                     <h4 class="text-left my-3 text_dash">Geo - Location Solor Sites</h4>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                    <img src="/assets/img/World_map_green.png" width="inherit" height="" style="width: inherit" />
+                    <!--<img src="/assets/img/World_map_green.png" width="inherit" height="" style="width: inherit" />-->
+                    <agm-map [latitude]="lat" [longitude]="lng">
+                        <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+                    </agm-map>
                 </div>
 
             </div>
@@ -270,4 +273,11 @@
         </div>
     </div>
 </div>
+
 <!--map section-->
+<iframe src="https://www.meteoblue.com/en/weather/widget/daily?geoloc=detect&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=monochrome&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windgust=0&winddirection=0&uv=0&humidity=0&precipitation=0&precipitationprobability=0&spot=0&pressure=0&layout=dark"
+    frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 216px;height: 201px ;box-shadow: 0 35px 30px 0 rgba(0, 0, 0, 0.2), 0 24px 37px 0 rgba(0, 0, 0, 0.19);background: #05467e;"></iframe>
+
+<!-- DO NOT REMOVE THIS LINK -->
+
+<div id="map"></div>

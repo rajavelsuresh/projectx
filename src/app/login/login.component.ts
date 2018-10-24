@@ -36,14 +36,14 @@ export class LoginComponent implements OnInit {
       return;
     }
 
-    let result = this.authenticationService.login(this.loginForm.controls.username.value, this.loginForm.controls.password.value)
+    this.authenticationService.login(this.loginForm.controls.username.value, this.loginForm.controls.password.value)
         .pipe(first())
         .subscribe(
             data => {
                 this.router.navigate(['/']);
             },
             error => {
-                this.alert = "Login Failed";
+                this.alert = 'Login Failed';
             }
         );
   }

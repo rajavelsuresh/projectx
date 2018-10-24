@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 
+// google map
+import { AgmCoreModule } from '@agm/core';
+
+
 
 
 
@@ -43,6 +47,9 @@ import { SitesComponent } from './sites/sites.component';
     ReactiveFormsModule,
     NgbModule.forRoot(),
     AngularFontAwesomeModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyA3ZqK1X6lYG0IGl44A9svvgNw51p5k8QA'
+    }),
     routing
   ],
   providers: [

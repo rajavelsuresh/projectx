@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthenticationService } from '../_services/authentication.service';
 
 
 
@@ -10,11 +11,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  
-  constructor( )  { }
+  loggedinUser: object;
+  constructor( private authenticationService: AuthenticationService )  { }
 
   ngOnInit() {
+    if(localStorage.getItem('currentUser')){
+   this.loggedinUser= JSON.parse(localStorage.getItem('currentUser'));
+    }
    
+  }
+  logOut(){
+    this.authenticationService.logout();
+    window.location.reload();
   }
 
 }

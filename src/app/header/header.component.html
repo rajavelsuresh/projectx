@@ -20,7 +20,7 @@
 
                 <a href="#" class="px-2"><i class="fa fa-user isize" aria-hidden="true"></i></a>
                 <a href="#" class="px-2"><i class="fa fa-bell isize" aria-hidden="true"></i></a>
-                <a href="#" class="px-2"><i class="fa fa-power-off isize" aria-hidden="true"></i></a>
+                <a (click)="logOut()" href="#" class="px-2"><i class="fa fa-power-off isize" aria-hidden="true"></i></a>
                 <a href="#" class="px-2 mob_hidd"><i class="fa fa-bars isize" aria-hidden="true" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" data-toggle="collapse"></i></a>
 
 
@@ -105,7 +105,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Inverter Management
+                            Inverter Management{{loggedinUser.firstName}}
                           </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Add Inverter</a>
