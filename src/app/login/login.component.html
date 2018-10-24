@@ -11,13 +11,13 @@
         <!-- Login Form -->
         <form [formGroup]="loginForm">
             <input type="text" id="login" class="fadeIn second form-control" name="login" placeholder="Username" formControlName="username" [ngClass]="{ 'is-invalid': loginForm.controls.username.errors }" />
-            <input type="text" id="password" class="fadeIn third form-control" name="login" placeholder="Password" formControlName="password" [ngClass]="{ 'is-invalid': loginForm.controls.password.errors }" />
-            <input type="submit" class="fadeIn fourth" value="Log In" (click)="onSubmit()" />
+            <input type="password" id=" password " class="fadeIn third form-control " name="login " placeholder="Password " formControlName="password " [ngClass]="{ 'is-invalid': loginForm.controls.password.errors } " />
+            <input type="submit " class="fadeIn fourth " value="Log In " (click)="onSubmit() " />
         </form>
 
         <!-- Remind Passowrd -->
-        <div id="formFooter">
-            <a class="underlineHover" href="#">Reset Passowrd</a>
+        <div id="formFooter ">
+            <a class="underlineHover " href="# ">Reset Passowrd</a>
         </div>
 
     </div>
