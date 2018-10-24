@@ -1,0 +1,241 @@
+{
+  "dashboard": {
+    "Total Power": "5500",
+    "Total Energy": "5000",
+    "Total Import Energy": "3500",
+    "Total Export Energy": "1500",
+    "Temperature": "32",
+    "Latitute Ranchi": "23.3441",
+    "NS_Indicator Ranchi": "N",
+    "Longitute Ranchi": "85.3096",
+    "EW_Indicator Ranchi": "E",
+    "Latitute Latehar": "23.7556",
+    "NS_Indicator Latehar": "N",
+    "Longitute Latehar": "84.3542",
+    "EW_Indicator Latehar": "E",
+    "Latitute Palamau": "24.1286",
+    "NS_Indicator Palamau": "N",
+    "Longitute Palamau": "84.1857",
+    "EW_Indicator Palamau": "E",
+    "Latitute Bokaro": "23.6693",
+    "NS_Indicator Bokaro": "N",
+    "Longitute Bokaro": "86.1511",
+    "EW_Indicator Bokaro": "E"
+  },
+  "site-summary": {
+    "Total Power": "5500",
+    "Total Energy": "5000",
+    "Total Import Energy": "3500",
+    "Total Export Energy": "1500"
+  },
+  "site": [{
+      "Site_Id": "SiteRNC001",
+      "Site Name": "Ranchi",
+      "Site Location Address": "MECON Colony, Shyamali Colony, Doranda",
+      "Loc_latitude": "23.3393",
+      "NS_indicator": "N",
+      "Loc_longitude": "85.3162",
+      "EW_indicator": "E",
+      "City": "Ranchi",
+      "State": "Jharkhand",
+      "Pin": "834002",
+      "Connection_Status": "Active",
+      "Site_Status": "Connected",
+      "Installation_Date": "21/10/2018",
+      "Installation_Time": "09:30 AM",
+      "Created_By": "Ram Singh",
+      "Created_Date": "21/10/2018"
+    },
+    {
+      "Site_Id": "SiteBSC001",
+      "Site Name": "Bokaro Steel City",
+      "Site Location Address": "sector-5A,near ram singh chowk",
+      "Loc_latitude": "23.6693",
+      "NS_indicator": "N",
+      "Loc_longitude": "86.1511",
+      "EW_indicator": "E",
+      "City": "Bokaro Steel City",
+      "State": "Jharkhand",
+      "Pin": "827001",
+      "Connection_Status": "Deactive",
+      "Site_Status": "Disconnected",
+      "Installation_Date": "10/11/2014",
+      "Installation_Time": "11:30 AM",
+      "Created_By": "Veer Singh",
+      "Created_Date": "12/10/2016"
+    }
+  ],
+  "site-log": [{
+      "Site Name": "Ranchi",
+      "Loc_latitude": "23.6693",
+      "NS_indicator": "N",
+      "Loc_longitude": "86.1511",
+      "EW_indicator": "E"
+    },
+    {
+      "Site Name": "Latehar",
+      "Loc_latitude": "23.7556",
+      "NS_indicator": "N",
+      "Loc_longitude": "84.3542",
+      "EW_indicator": "E"
+    },
+    {
+      "Site Name": "Bokaro Steel City",
+      "Loc_latitude": "23.6693",
+      "NS_indicator": "N",
+      "Loc_longitude": "86.1511",
+      "EW_indicator": "E"
+    },
+    {
+      "Site Name": "Palamau",
+      "Loc_latitude": "24.1286",
+      "NS_indicator": "N",
+      "Loc_longitude": "84.1857",
+      "EW_indicator": "E"
+    },
+    {
+      "Site Name": "Deoghar",
+      "Loc_latitude": "24.4763",
+      "NS_indicator": "N",
+      "Loc_longitude": "86.6913",
+      "EW_indicator": "E"
+    }
+  ],
+  "site-details": [{
+      "Site_Id": "SiteRNC001",
+      "Site_Name": "Ranchi",
+      "Last_Updated_Time": "10 min",
+      "Site Location Address": "MECON Colony, Shyamali Colony, Doranda",
+      "Total_Site_Energy": "500",
+      "Total_Site_ImportEnergy": "400",
+      "Total_Site_ExportEnergy": "300",
+      "Status": "Connected"
+    },
+    {
+      "Site_Id": "SiteRNC002",
+      "Site_Name": "Ranchi",
+      "Last_Updated_Time": "20 min",
+      "Site Location Address": "Satyanad Colony, Dhurva",
+      "Total_Site_Energy": "300",
+      "Total_Site_ImportEnergy": "350",
+      "Total_Site_ExportEnergy": "300",
+      "Status": "Disconnected"
+    },
+    {
+      "Site_Id": "SiteDTO002",
+      "Site_Name": "Palamau",
+      "Last_Updated_Time": "5 min",
+      "Site Location Address": "Redma Chowk, Daltonganj ",
+      "Total_Site_Energy": "450",
+      "Total_Site_ImportEnergy": "400",
+      "Total_Site_ExportEnergy": "350",
+      "Status": "Connected"
+    },
+    {
+      "Site_Id": "SiteDTO003",
+      "Site_Name": "Palamau",
+      "Last_Updated_Time": "7 min",
+      "Site Location Address": "Redma Chowk, Daltonganj ",
+      "Total_Site_Energy": "550",
+      "Total_Site_ImportEnergy": "500",
+      "Total_Site_ExportEnergy": "450",
+      "Status": "Alarm"
+    }
+  ],
+  "site-parameters": [{
+      "Site_Id": "SiteRNC001",
+      "Meter_Id": "SPZRNC001",
+      "Inverter_Id": "CWRNC001",
+      "Site_Name": "Ranchi",
+      "Last_Updated_Time": "12:45 PM",
+      "Service_Provider": "MR.Rahul Kumar",
+      "Site Location Address": "MECON Colony, Shyamali Colony, Doranda",
+      "Total_Site_Energy": "500",
+      "Run_Time": "450",
+      "Wind_Direction": "199.24",
+      "NS_indicator": "N",
+      "Wind_Speed": "11.182",
+      "Precipitation": "9.45",
+      "Ambient Temperature": "33",
+      "Module Temperature": "39",
+      "Irradiance Intensity": "15",
+      "Humidity": "23",
+      "Status": "Connected"
+    },
+    {
+      "Site_Id": "SiteBSC001",
+      "Meter_Id": "SPZBSC001",
+      "Inverter_Id": "CWBSC001",
+      "Site_Name": "Bokaro Steel City",
+      "Last_Updated_Time": "1:45 PM",
+      "Service_Provider": "MR.Sanjeev Kumar",
+      "Site Location Address": "sector-12A, near shopping mall",
+      "Total_Site_Energy": "600",
+      "Run_Time": "550",
+      "Wind_Direction": "180.24",
+      "NS_indicator": "N",
+      "Wind_Speed": "9.182",
+      "Precipitation": "5.45",
+      "Ambient Temperature": "37",
+      "Module Temperature": "42",
+      "Irradiance Intensity": "19",
+      "Humidity": "21",
+      "Status": "Connected"
+    }
+  ],
+  "alarms": [{
+      "Site_Id": "SiteRNC001",
+      "Alarm_Id": "123",
+      "Alarm Name": "ABCD",
+      "NonActiveAlarm": "",
+      "ActiveAlarm": "RED",
+      "AB_Id": "A_123",
+      "Last_Updated_Time": "12:45 PM"
+    },
+    {
+      "Site_Id": "SiteRNC002",
+      "Alarm_Id": "1234",
+      "Alarm Name": "ABCDE",
+      "NonActiveAlarm": "",
+      "ActiveAlarm": "Black",
+      "AB_Id": "A_1234",
+      "Last_Updated_Time": "1:45 PM"
+    },
+    {
+      "Site_Id": "SiteRNC003",
+      "Alarm_Id": "12345",
+      "Alarm Name": "ABCDEF",
+      "NonActiveAlarm": "",
+      "ActiveAlarm": "Yellow",
+      "AB_Id": "A_1234",
+      "Last_Updated_Time": "5:45 PM"
+    },
+    {
+      "Site_Id": "SiteBSC001",
+      "Alarm_Id": "123456",
+      "Alarm Name": "ABCDEFG",
+      "NonActiveAlarm": "",
+      "ActiveAlarm": "Cyan",
+      "AB_Id": "A_12345",
+      "Last_Updated_Time": "2:45 PM"
+    },
+    {
+      "Site_Id": "SiteBSC002",
+      "Alarm_Id": "1234567",
+      "Alarm Name": "ABCDEFGh",
+      "NonActiveAlarm": "",
+      "ActiveAlarm": "Green",
+      "AB_Id": "A_123456",
+      "Last_Updated_Time": "4:45 PM"
+    },
+    {
+      "Site_Id": "SiteBSC003",
+      "Alarm_Id": "1234567",
+      "Alarm Name": "ABCDEFGh",
+      "NonActiveAlarm": "",
+      "ActiveAlarm": "Blue",
+      "AB_Id": "A_123456",
+      "Last_Updated_Time": "7:45 PM"
+    }
+  ]
+}

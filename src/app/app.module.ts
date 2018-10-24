@@ -14,8 +14,6 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 
-// Fake FakeBackend
-import { fakeBackendProvider } from './_mock/fake-backend';
 //Router
 import { routing } from './app.routing';
 //Guards
@@ -56,10 +54,7 @@ import { SitesComponent } from './sites/sites.component';
     AuthGuard,
     AuthenticationService,
     tokenInterceptor,
-    errorInterceptor,
-
-    // provider used to create fake backend
-    fakeBackendProvider
+    errorInterceptor
   ],
   bootstrap: [AppComponent]
 })
